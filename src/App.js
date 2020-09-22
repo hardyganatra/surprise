@@ -11,7 +11,11 @@ function App() {
 					alt="..loading"
 				></img>
 			</div>
-			<h3 className="wishh3">Happyyyyyyyyyy Birthday Foruuuuuu</h3>
+			<div id="container">
+				<div class="box" id="bluebox">
+					<h3>Happy Birthday mari FOruuuuuuuuuuuuuuuuuuu</h3>
+				</div>
+			</div>
 		</div>
 	);
 }

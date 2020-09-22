@@ -19,14 +19,24 @@ code {
 }
 
 .intropage {
+	display: flex; /* establish flex container */
+	flex-direction: column; /* make main-axis vertical */
+	justify-content: center; /* align items vertically, in this case */
+	align-items: center; /* align items horizontally, in this case */
 	position: relative;
-	height: 40vh;
-	background-color: crimson;
-	margin-left: -129px;
+	margin: 0 auto;
 }
-.wishh3 {
-	margin-top: 50px;
-	width: 190px;
-	background-color: darkkhaki;
-	margin-left: 20px;
+
+#container {
+	display: flex; /* establish flex container */
+	flex-direction: column; /* make main-axis vertical */
+	justify-content: center; /* align items vertically, in this case */
+	align-items: center; /* align items horizontally, in this case */
+	height: 100px; /* for demo purposes */
+}
+
+.box {
+	font-size: 25px;
+	text-align: center;
+	font-family: cursive;
 }
