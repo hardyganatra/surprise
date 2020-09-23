@@ -1,6 +1,6 @@
 import React from "react";
 import minnion from "./Assets/minnion.gif";
-import minnionbd from "./Assets/minnion2bd.gif";
+import Foruu from "./Assets/Foruu01.jpg";
 function App() {
 	return (
 		<div className="App">
@@ -15,6 +15,9 @@ function App() {
 				<div class="box" id="bluebox">
 					<h3>Happy Birthday mari FOruuuuuuuuuuuuuuuuuuu</h3>
 				</div>
+			</div>
+			<div className="coverpic">
+				<img className="coverpicimg" src={Foruu} alt="loading"></img>
 			</div>
 		</div>
 	);
