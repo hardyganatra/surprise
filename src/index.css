@@ -44,3 +44,13 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+.coverpicimg {
+	border: 5px solid tomato;
+}
+
+.MessageCard {
+	width: 100%;
+	font-size: 18px;
+	border: 3px dashed blue;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
