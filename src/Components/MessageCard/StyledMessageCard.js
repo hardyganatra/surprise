@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Foruu from "./Foruu.jpg";
 export const StyledMessageCard = styled.div`
 	width: 100%;
 	font-size: 18px;

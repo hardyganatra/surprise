@@ -3,6 +3,7 @@ import minnion from "./Assets/minnion.gif";
 import Foruu from "./Assets/Foruu01.jpg";
 import messages from "./Messages/index";
 import Messagecard from "./Components/MessageCard/index";
+import ImageCard from "./Components/ImageCard/index";
 function App() {
 	return (
 		<div className="App">
@@ -18,9 +19,7 @@ function App() {
 					<h3>Happy Birthday mari FOruuuuuuuuuuuuuuuuuuu</h3>
 				</div>
 			</div>
-			<div className="coverpic">
-				<img className="coverpicimg" src={Foruu} alt="loading"></img>
-			</div>
+			<ImageCard image={Foruu}></ImageCard>
 			<Messagecard message={messages.intromsg}></Messagecard>
 		</div>
 	);
